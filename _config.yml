@@ -1,0 +1,688 @@
+langsorder:
+- 'id'
+- 'ca'
+- 'da'
+- 'de'
+- 'en'
+- 'es'
+- 'fr'
+- 'it'
+- 'hu'
+- 'nl'
+- 'pl'
+- 'pt_BR'
+- 'ro'
+- 'sl'
+- 'sr'
+- 'sv'
+- 'tr'
+- 'el'
+- 'bg'
+- 'ru'
+- 'uk'
+- 'hy'
+- 'ar'
+- 'fa'
+- 'he'
+- 'hi'
+- 'ko'
+- 'km'
+- 'ja'
+- 'zh_CN'
+- 'zh_TW'
+
+langs:
+  'ar': 'العربية'
+  'bg': 'български'
+  'ca': 'Català'
+  'da': 'Dansk'
+  'de': 'Deutsch'
+  'en': 'English'
+  'el': 'Ελληνικά'
+  'es': 'Español'
+  'fa': 'فارسی'
+  'fr': 'Français'
+  'he': 'עברית'
+  'hi': 'हिन्दी'
+  'hy': 'Հայերեն'
+  'hu': 'Magyar'
+  'id': 'Bahasa Indonesia'
+  'km': 'ខ្មែរ'
+  'it': 'Italiano'
+  'ja': '日本語'
+  'ko': '한국어'
+  'nl': 'Nederlands'
+  'pl': 'Polski'
+  'pt_BR': 'Português Brasil'
+  'ro': 'Română'
+  'ru': 'Русский'
+  'sl': 'Slovenščina'
+  'sr': 'Srpski'
+  'sv': 'Svenska'
+  'tr': 'Türkçe'
+  'uk': 'Українська'
+  'zh_CN': '简体中文'
+  'zh_TW': '繁體中文'
+
+redirects:
+  /en/btig-for-developers: https://developer.btig.org/
+  /en/developer-guide: https://developer.btig.org/devguide/
+  /en/developer-guide#blockchain: https://developer.btig.org/devguide/block_chain#block-chain
+  /en/developer-guide#transactions: https://developer.btig.org/devguide/transactions#transactions
+  /en/developer-guide#wallets: https://developer.btig.org/devguide/wallets#wallets
+  /en/developer-guide#payment-processing: https://developer.btig.org/devguide/payment_processing#payment-processing
+  /en/developer-guide#p2p-network: https://developer.btig.org/devguide/p2p_network#p2p-network
+  /en/developer-guide#mining: https://developer.btig.org/devguide/mining#mining
+  /en/blockchain-guide: https://developer.btig.org/devguide/block_chain
+  /en/blockchain-guide#introduction: https://developer.btig.org/devguide/block_chain#introduction
+  /en/blockchain-guide#proof-of-work: https://developer.btig.org/devguide/block_chain#proof-of-work
+  /en/blockchain-guide#block-height-and-forking: https://developer.btig.org/devguide/block_chain#block-height-and-forking
+  /en/blockchain-guide#transaction-data: https://developer.btig.org/devguide/block_chain#transaction-data
+  /en/blockchain-guide#consensus-rule-changes: https://developer.btig.org/devguide/block_chain#consensus-rule-changes
+  /en/blockchain-guide#detecting-forks: https://developer.btig.org/devguide/block_chain#detecting-forks
+  /en/transactions-guide: https://developer.btig.org/devguide/transactions
+  /en/transactions-guide#introduction: https://developer.btig.org/devguide/transactions#introduction
+  /en/transactions-guide#p2pkh-script-validation: https://developer.btig.org/devguide/transactions#p2pkh-script-validation
+  /en/transactions-guide#p2sh-scripts: https://developer.btig.org/devguide/transactions#p2sh-scripts
+  /en/transactions-guide#standard-transactions: https://developer.btig.org/devguide/transactions#standard-transactions
+  /en/transactions-guide#pay-to-public-key-hash-p2pkh: https://developer.btig.org/devguide/transactions#pay-to-public-key-hash-p2pkh
+  /en/transactions-guide#multisig: https://developer.btig.org/devguide/transactions#multisig
+  /en/transactions-guide#null-data: https://developer.btig.org/devguide/transactions#null-data
+  /en/transactions-guide#non-standard-transactions: https://developer.btig.org/devguide/transactions#non-standard-transactions
+  /en/transactions-guide#signature-hash-types: https://developer.btig.org/devguide/transactions#signature-hash-types
+  /en/transactions-guide#locktime-and-sequence-number: https://developer.btig.org/devguide/transactions#locktime-and-sequence-number
+  /en/transactions-guide#transaction-fees-and-change: https://developer.btig.org/devguide/transactions#transaction-fees-and-change
+  /en/transactions-guide#avoiding-key-reuse: https://developer.btig.org/devguide/transactions#avoiding-key-reuse
+  /en/transactions-guide#transaction-malleability: https://developer.btig.org/devguide/transactions#transaction-malleability
+  /en/contracts-guide: https://developer.btig.org/devguide/contracts
+  /en/contracts-guide#introduction: https://developer.btig.org/devguide/contracts#introduction
+  /en/contracts-guide#escrow-and-arbitration: https://developer.btig.org/devguide/contracts#escrow-and-arbitration
+  /en/contracts-guide#micropayment-channel: https://developer.btig.org/devguide/contracts#micropayment-channel
+  /en/contracts-guide#coinjoin: https://developer.btig.org/devguide/contracts#coinjoin
+  /en/wallets-guide: https://developer.btig.org/devguide/wallets
+  /en/wallets-guide#introductions: https://developer.btig.org/devguide/wallets#introductions
+  /en/wallets-guide#wallet-programs: https://developer.btig.org/devguide/wallets#wallet-programs
+  /en/wallets-guide#full-service-wallets: https://developer.btig.org/devguide/wallets#full-service-wallets
+  /en/wallets-guide#signing-only-wallets: https://developer.btig.org/devguide/wallets#signing-only-wallets
+  /en/wallets-guide#offline-wallets: https://developer.btig.org/devguide/wallets#offline-wallets
+  /en/wallets-guide#hardware-wallets: https://developer.btig.org/devguide/wallets#hardware-wallets
+  /en/wallets-guide#distributing-only-wallets: https://developer.btig.org/devguide/wallets#distributing-only-wallets
+  /en/wallets-guide#wallet-files: https://developer.btig.org/devguide/wallets#wallet-files
+  /en/wallets-guide#private-key-formats: https://developer.btig.org/devguide/wallets#private-key-formats
+  /en/wallets-guide#wallet-import-format-wif: https://developer.btig.org/devguide/wallets#wallet-import-format-wif
+  /en/wallets-guide#mini-private-key-format: https://developer.btig.org/devguide/wallets#mini-private-key-format
+  /en/wallets-guide#public-key-formats: https://developer.btig.org/devguide/wallets#public-key-formats
+  /en/wallets-guide#hierarchical-deterministic-key-creation: https://developer.btig.org/devguide/wallets#hierarchical-deterministic-key-creation
+  /en/wallets-guide#hardened-keys: https://developer.btig.org/devguide/wallets#hardened-keys
+  /en/wallets-guide#storing-root-seeds: https://developer.btig.org/devguide/wallets#storing-root-seeds
+  /en/wallets-guide#loose-key-wallets: https://developer.btig.org/devguide/wallets#loose-key-wallets
+  /en/payment-processing-guide: https://developer.btig.org/devguide/payment_processing
+  /en/payment-processing-guide#introduction: https://developer.btig.org/devguide/payment_processing#introduction
+  /en/payment-processing-guide#pricing-orders: https://developer.btig.org/devguide/payment_processing#pricing-orders
+  /en/payment-processing-guide#requesting-payments: https://developer.btig.org/devguide/payment_processing#requesting-payments
+  /en/payment-processing-guide#plain-text: https://developer.btig.org/devguide/payment_processing#plain-text
+  /en/payment-processing-guide#btig-uri: https://developer.btig.org/devguide/payment_processing#btig-uri
+  /en/payment-processing-guide#qr-codes: https://developer.btig.org/devguide/payment_processing#qr-codes
+  /en/payment-processing-guide#payment-protocol: https://developer.btig.org/devguide/payment_processing#payment-protocol
+  /en/payment-processing-guide#verifying-payment: https://developer.btig.org/devguide/payment_processing#verifying-payment
+  /en/payment-processing-guide#issuing-refunds: https://developer.btig.org/devguide/payment_processing#issuing-refunds
+  /en/payment-processing-guide#disbursing-income-limiting-forex-risk: https://developer.btig.org/devguide/payment_processing#disbursing-income-limiting-forex-risk
+  /en/payment-processing-guide#merge-avoidance: https://developer.btig.org/devguide/payment_processing#merge-avoidance
+  /en/payment-processing-guide#last-in-first-out-lifo: https://developer.btig.org/devguide/payment_processing#last-in-first-out-lifo
+  /en/payment-processing-guide#first-in-first-out-fifo: https://developer.btig.org/devguide/payment_processing#first-in-first-out-fifo
+  /en/payment-processing-guide#rebilling-recurring-payments: https://developer.btig.org/devguide/payment_processing#rebilling-recurring-payments
+  /en/operating-modes-guide: https://developer.btig.org/devguide/operating_modes
+  /en/operating-modes-guide#introduction: https://developer.btig.org/devguide/operating_modes#introduction
+  /en/operating-modes-guide#full-node: https://developer.btig.org/devguide/operating_modes#full-node
+  /en/operating-modes-guide#simplified-payment-verification-spv: https://developer.btig.org/devguide/operating_modes#simplified-payment-verification-spv
+  /en/operating-modes-guide#potential-spv-weaknesses: https://developer.btig.org/devguide/operating_modes#potential-spv-weaknesses
+  /en/operating-modes-guide#bloom-filters: https://developer.btig.org/devguide/operating_modes#bloom-filters
+  /en/operating-modes-guide#application-of-bloom-filters: https://developer.btig.org/devguide/operating_modes#application-of-bloom-filters
+  /en/operating-modes-guide#future-proposals: https://developer.btig.org/devguide/operating_modes#future-proposals
+  /en/p2p-network-guide: https://developer.btig.org/devguide/p2p_network
+  /en/p2p-network-guide#introduction: https://developer.btig.org/devguide/p2p_network#introduction
+  /en/p2p-network-guide#peer-discovery: https://developer.btig.org/devguide/p2p_network#peer-discovery
+  /en/p2p-network-guide#connecting-to-peers: https://developer.btig.org/devguide/p2p_network#connecting-to-peers
+  /en/p2p-network-guide#initial-block-download: https://developer.btig.org/devguide/p2p_network#initial-block-download
+  /en/p2p-network-guide#blocks-first: https://developer.btig.org/devguide/p2p_network#blocks-first
+  /en/p2p-network-guide#headers-first: https://developer.btig.org/devguide/p2p_network#headers-first
+  /en/p2p-network-guide#block-broadcasting: https://developer.btig.org/devguide/p2p_network#block-broadcasting
+  /en/p2p-network-guide#orphan-blocks: https://developer.btig.org/devguide/p2p_network#orphan-blocks
+  /en/p2p-network-guide#transaction-broadcasting: https://developer.btig.org/devguide/p2p_network#transaction-broadcasting
+  /en/p2p-network-guide#misbehaving-nodes: https://developer.btig.org/devguide/p2p_network#misbehaving-nodes
+  /en/p2p-network-guide#alerts: https://developer.btig.org/devguide/p2p_network#alerts
+  /en/mining-guide: https://developer.btig.org/devguide/mining
+  /en/mining-guide#introduction: https://developer.btig.org/devguide/mining#introduction
+  /en/mining-guide#solo-mining: https://developer.btig.org/devguide/mining#solo-mining
+  /en/mining-guide#pool-mining: https://developer.btig.org/devguide/mining#pool-mining
+  /en/mining-guide#block-prototypes: https://developer.btig.org/devguide/mining#block-prototypes
+  /en/mining-guide#getwork-rpc: https://developer.btig.org/devguide/mining#getwork-rpc
+  /en/mining-guide#getblocktemplate-rpc: https://developer.btig.org/devguide/mining#getblocktemplate-rpc
+  /en/mining-guide#stratum: https://developer.btig.org/devguide/mining#stratum
+  /en/developer-reference: https://developer.btig.org/reference/
+  /en/developer-reference#block-chain: https://developer.btig.org/reference/block_chain#block-chain
+  /en/developer-reference#block-headers: https://developer.btig.org/reference/block_chain#block-headers
+  /en/developer-reference#block-versions: https://developer.btig.org/reference/block_chain#block-versions
+  /en/developer-reference#merkle-trees: https://developer.btig.org/reference/block_chain#merkle-trees
+  /en/developer-reference#target-nbits: https://developer.btig.org/reference/block_chain#target-nbits
+  /en/developer-reference#serialized-blocks: https://developer.btig.org/reference/block_chain#serialized-blocks
+  /en/developer-reference#transactions: https://developer.btig.org/reference/transactions
+  /en/developer-reference#opcodes: https://developer.btig.org/reference/transactions#opcodes
+  /en/developer-reference#address-conversion: https://developer.btig.org/reference/transactions#address-conversion
+  /en/developer-reference#raw-transaction-format: https://developer.btig.org/reference/transactions#raw-transaction-format
+  /en/developer-reference#compactsize-unsigned-integers: https://developer.btig.org/reference/transactions#compactsize-unsigned-integers
+  /en/developer-reference#wallets: https://developer.btig.org/reference/wallets
+  /en/developer-reference#deterministic-wallet-formats: https://developer.btig.org/reference/wallets#deterministic-wallet-formats
+  /en/developer-reference#type-1-single-chain-wallets: https://developer.btig.org/reference/wallets#type-1-single-chain-wallets
+  /en/developer-reference#type-2-hierarchical-deterministic-hd-wallets: https://developer.btig.org/reference/wallets#type-2-hierarchical-deterministic-hd-wallets
+  /en/developer-reference#p2p-network: https://developer.btig.org/reference/p2p_networking#p2p-network
+  /en/developer-reference#constants-and-defaults: https://developer.btig.org/reference/p2p_networking#constants-and-defaults
+  /en/developer-reference#protocol-versions: https://developer.btig.org/reference/p2p_networking#protocol-versions
+  /en/developer-reference#message-headers: https://developer.btig.org/reference/p2p_networking#message-headers
+  /en/developer-reference#data-messages: https://developer.btig.org/reference/p2p_networking#data-messages
+  /en/developer-reference#block: https://developer.btig.org/reference/p2p_networking#block
+  /en/developer-reference#getblocks: https://developer.btig.org/reference/p2p_networking#getblocks
+  /en/developer-reference#getdata: https://developer.btig.org/reference/p2p_networking#getdata
+  /en/developer-reference#getheaders: https://developer.btig.org/reference/p2p_networking#getheaders
+  /en/developer-reference#headers: https://developer.btig.org/reference/p2p_networking#headers
+  /en/developer-reference#inv: https://developer.btig.org/reference/p2p_networking#inv
+  /en/developer-reference#mempool: https://developer.btig.org/reference/p2p_networking#mempool
+  /en/developer-reference#merkleblock: https://developer.btig.org/reference/p2p_networking#merkleblock
+  /en/developer-reference#cmpctblock: https://developer.btig.org/reference/p2p_networking#cmpctblock
+  /en/developer-reference#sendcmpct: https://developer.btig.org/reference/p2p_networking#sendcmpct
+  /en/developer-reference#getblocktxn: https://developer.btig.org/reference/p2p_networking#getblocktxn
+  /en/developer-reference#blocktxn: https://developer.btig.org/reference/p2p_networking#blocktxn
+  /en/developer-reference#notfound: https://developer.btig.org/reference/p2p_networking#notfound
+  /en/developer-reference#tx: https://developer.btig.org/reference/p2p_networking#tx
+  /en/developer-reference#control-messages: https://developer.btig.org/reference/p2p_networking#control-messages
+  /en/developer-reference#addr: https://developer.btig.org/reference#addr
+  /en/developer-reference#alert: https://developer.btig.org/reference/p2p_networking#alert
+  /en/developer-reference#feefilter: https://developer.btig.org/reference/p2p_networking#feefilter
+  /en/developer-reference#filteradd: https://developer.btig.org/reference/p2p_networking#filteradd
+  /en/developer-reference#filterclear: https://developer.btig.org/reference/p2p_networking#filterclear
+  /en/developer-reference#filterload: https://developer.btig.org/reference/p2p_networking#filterload
+  /en/developer-reference#getaddr: https://developer.btig.org/reference/p2p_networking#getaddr
+  /en/developer-reference#ping: https://developer.btig.org/reference/p2p_networking#ping
+  /en/developer-reference#pong: https://developer.btig.org/reference/p2p_networking#pong
+  /en/developer-reference#reject: https://developer.btig.org/reference/p2p_networking#reject
+  /en/developer-reference#sendheaders: https://developer.btig.org/reference/p2p_networking#sendheaders
+  /en/developer-reference#verack: https://developer.btig.org/reference/p2p_networking#verack
+  /en/developer-reference#version: https://developer.btig.org/reference/p2p_networking#version
+  /en/developer-reference#abandontransaction: https://developer.btig.org/reference/rpc/abandontransaction#abandontransaction
+  /en/developer-reference#abortrescan: https://developer.btig.org/reference/rpc/abortrescan#abortrescan
+  /en/developer-reference#addmultisigaddress: https://developer.btig.org/reference/rpc/addmultisigaddress#addmultisigaddress
+  /en/developer-reference#addnode: https://developer.btig.org/reference/rpc/addnode#addnode
+  /en/developer-reference#analyzepsbt: https://developer.btig.org/reference/rpc/analyzepsbt#analyzepsbt
+  /en/developer-reference#backupwallet: https://developer.btig.org/reference/rpc/backupwallet#backupwallet
+  /en/developer-reference#bumpfee: https://developer.btig.org/reference/rpc/bumpfee#bumpfee
+  /en/developer-reference#clearbanned: https://developer.btig.org/reference/rpc/clearbanned#clearbanned
+  /en/developer-reference#combinepsbt: https://developer.btig.org/reference/rpc/combinepsbt#combinepsbt
+  /en/developer-reference#combinerawtransaction: https://developer.btig.org/reference/rpc/combinerawtransaction#combinerawtransaction
+  /en/developer-reference#converttopsbt: https://developer.btig.org/reference/rpc/converttopsbt#converttopsbt
+  /en/developer-reference#createmultisig: https://developer.btig.org/reference/rpc/createmultisig#createmultisig
+  /en/developer-reference#createpsbt: https://developer.btig.org/reference/rpc/createpsbt
+  /en/developer-reference#createrawtransaction: https://developer.btig.org/reference/rpc/createrawtransaction
+  /en/developer-reference#createwallet: https://developer.btig.org/reference/rpc/createwallet
+  /en/developer-reference#decodepsbt: https://developer.btig.org/reference/rpc/decodepsbt
+  /en/developer-reference#decoderawtransaction: https://developer.btig.org/reference/rpc/decoderawtransaction
+  /en/developer-reference#decodescript: https://developer.btig.org/reference/rpc/decodescript
+  /en/developer-reference#deriveaddresses: https://developer.btig.org/reference/rpc/deriveaddresses
+  /en/developer-reference#disconnectnode: https://developer.btig.org/reference/rpc/disconnectnode
+  /en/developer-reference#dumpprivkey: https://developer.btig.org/reference/rpc/dumpprivkey
+  /en/developer-reference#dumpwallet: https://developer.btig.org/reference/rpc/dumpwallet
+  /en/developer-reference#encryptwallet: https://developer.btig.org/reference/rpc/encryptwallet
+  /en/developer-reference#estimatesmartfee: https://developer.btig.org/reference/rpc/estimatesmartfee
+  /en/developer-reference#finalizepsbt: https://developer.btig.org/reference/rpc/finalizepsbt
+  /en/developer-reference#fundrawtransaction: https://developer.btig.org/reference/rpc/fundrawtransaction
+  /en/developer-reference#generate: https://developer.btig.org/reference/rpc/generate
+  /en/developer-reference#generatetoaddress: https://developer.btig.org/reference/rpc/generatetoaddress
+  /en/developer-reference#getaddednodeinfo: https://developer.btig.org/reference/rpc/getaddednodeinfo
+  /en/developer-reference#getaddressesbylabel: https://developer.btig.org/reference/rpc/getaddressesbylabel
+  /en/developer-reference#getaddressinfo: https://developer.btig.org/reference/rpc/getaddressinfo
+  /en/developer-reference#getbalance: https://developer.btig.org/reference/rpc/getbalance
+  /en/developer-reference#getbestblockhash: https://developer.btig.org/reference/rpc/getbestblockhash
+  /en/developer-reference#getblock: https://developer.btig.org/reference/rpc/getblock
+  /en/developer-reference#getblockchaininfo: https://developer.btig.org/reference/rpc/getblockchaininfo
+  /en/developer-reference#getblockcount: https://developer.btig.org/reference/rpc/getblockcount
+  /en/developer-reference#getblockhash: https://developer.btig.org/reference/rpc/getblockhash
+  /en/developer-reference#getblockheader: https://developer.btig.org/reference/rpc/getblockheader
+  /en/developer-reference#getblockstats: https://developer.btig.org/reference/rpc/getblockstats
+  /en/developer-reference#getblocktemplate: https://developer.btig.org/reference/rpc/getblocktemplate
+  /en/developer-reference#getchaintips: https://developer.btig.org/reference/rpc/getchaintips
+  /en/developer-reference#getchaintxstats: https://developer.btig.org/reference/rpc/getchaintxstats
+  /en/developer-reference#getconnectioncount: https://developer.btig.org/reference/rpc/getconnectioncount
+  /en/developer-reference#getdescriptorinfo: https://developer.btig.org/reference/rpc/getdescriptorinfo
+  /en/developer-reference#getdifficulty: https://developer.btig.org/reference/rpc/getdifficulty
+  /en/developer-reference#getmemoryinfo: https://developer.btig.org/reference/rpc/getmemoryinfo
+  /en/developer-reference#getmempoolancestors: https://developer.btig.org/reference/rpc/getmempoolancestors
+  /en/developer-reference#getmempooldescendants: https://developer.btig.org/reference/rpc/getmempooldescendants
+  /en/developer-reference#getmempoolentry: https://developer.btig.org/reference/rpc/getmempoolentry
+  /en/developer-reference#getmempoolinfo: https://developer.btig.org/reference/rpc/getmempoolinfo
+  /en/developer-reference#getmininginfo: https://developer.btig.org/reference/rpc/getmininginfo
+  /en/developer-reference#getnettotals: https://developer.btig.org/reference/rpc/getnettotals
+  /en/developer-reference#getnetworkhashps: https://developer.btig.org/reference/rpc/getnetworkhashps
+  /en/developer-reference#getnetworkinfo: https://developer.btig.org/reference/rpc/getnetworkinfo
+  /en/developer-reference#getnewaddress: https://developer.btig.org/reference/rpc/getnewaddress
+  /en/developer-reference#getnodeaddresses: https://developer.btig.org/reference/rpc/getnodeaddresses
+  /en/developer-reference#getpeerinfo: https://developer.btig.org/reference/rpc/getpeerinfo
+  /en/developer-reference#getrawchangeaddress: https://developer.btig.org/reference/rpc/getrawchangeaddress
+  /en/developer-reference#getrawmempool: https://developer.btig.org/reference/rpc/getrawmempool
+  /en/developer-reference#getrawtransaction: https://developer.btig.org/reference/rpc/getrawtransaction
+  /en/developer-reference#getrawtransaction: https://developer.btig.org/reference/rpc/getrawtransaction
+  /en/developer-reference#getreceivedbyaddress: https://developer.btig.org/reference/rpc/getreceivedbyaddress
+  /en/developer-reference#getreceivedbylabel: https://developer.btig.org/reference/rpc/getreceivedbylabel
+  /en/developer-reference#getrpcinfo: https://developer.btig.org/reference/rpc/getrpcinfo
+  /en/developer-reference#gettransaction: https://developer.btig.org/reference/rpc/gettransaction
+  /en/developer-reference#gettxout: https://developer.btig.org/reference/rpc/gettxout
+  /en/developer-reference#gettxoutproof: https://developer.btig.org/reference/rpc/gettxoutproof
+  /en/developer-reference#gettxoutsetinfo: https://developer.btig.org/reference/rpc/gettxoutsetinfo
+  /en/developer-reference#getunconfirmedbalance: https://developer.btig.org/reference/rpc/getunconfirmedbalance
+  /en/developer-reference#getwalletinfo: https://developer.btig.org/reference/rpc/getwalletinfo
+  /en/developer-reference#help: https://developer.btig.org/reference/rpc/help
+  /en/developer-reference#importaddress: https://developer.btig.org/reference/rpc/importaddress
+  /en/developer-reference#importmulti: https://developer.btig.org/reference/rpc/importmulti
+  /en/developer-reference#importprivkey: https://developer.btig.org/reference/rpc/importprivkey
+  /en/developer-reference#importprunedfunds: https://developer.btig.org/reference/rpc/importprunedfunds
+  /en/developer-reference#importpubkey: https://developer.btig.org/reference/rpc/importpubkey
+  /en/developer-reference#importwallet: https://developer.btig.org/reference/rpc/importwallet
+  /en/developer-reference#joinpsbts: https://developer.btig.org/reference/rpc/joinpsbts
+  /en/developer-reference#keypoolrefill: https://developer.btig.org/reference/rpc/keypoolrefill
+  /en/developer-reference#listaddressgroupings: https://developer.btig.org/reference/rpc/listaddressgroupings
+  /en/developer-reference#listbanned: https://developer.btig.org/reference/rpc/listbanned
+  /en/developer-reference#listlabels: https://developer.btig.org/reference/rpc/listlabels
+  /en/developer-reference#listlockunspent: https://developer.btig.org/reference/rpc/listlockunspent
+  /en/developer-reference#listreceivedbyaddress: https://developer.btig.org/reference/rpc/listreceivedbyaddress
+  /en/developer-reference#listreceivedbylabel: https://developer.btig.org/reference/rpc/listreceivedbylabel
+  /en/developer-reference#listsinceblock: https://developer.btig.org/reference/rpc/listsinceblock
+  /en/developer-reference#listtransactions: https://developer.btig.org/reference/rpc/listtransactions
+  /en/developer-reference#listunspent: https://developer.btig.org/reference/rpc/listunspent
+  /en/developer-reference#listwalletdir: https://developer.btig.org/reference/rpc/listwalletdir
+  /en/developer-reference#listwallets: https://developer.btig.org/reference/rpc/listwallets
+  /en/developer-reference#loadwallet: https://developer.btig.org/reference/rpc/loadwallet
+  /en/developer-reference#lockunspent: https://developer.btig.org/reference/rpc/lockunspent
+  /en/developer-reference#logging: https://developer.btig.org/reference/rpc/logging
+  /en/developer-reference#ping-rpc: https://developer.btig.org/reference/rpc/ping-rpc
+  /en/developer-examples: https://developer.btig.org/examples/
+  /en/developer-examples#testing-applications: https://developer.btig.org/examples/testing#testing-applications 
+  /en/developer-examples#testnet: https://developer.btig.org/examples/testing#testnet
+  /en/developer-examples#regtest-mode: https://developer.btig.org/examples/testing#regtest-mode
+  /en/developer-examples#transactions: https://developer.btig.org/examples/transactions#transactions
+  /en/developer-examples#transaction-tutorial: https://developer.btig.org/examples/transactions#transaction-tutorial
+  /en/developer-examples#simple-spending: https://developer.btig.org/examples/transactions#simple-spending
+  /en/developer-examples#simple-raw-transaction: https://developer.btig.org/examples/transactions#simple-raw-transaction
+  /en/developer-examples#complex-raw-transaction: https://developer.btig.org/examples/transactions#complex-raw-transaction
+  /en/developer-examples#offline-signing: https://developer.btig.org/examples/transactions#offline-signing
+  /en/developer-examples#p2sh-multisig: https://developer.btig.org/examples/transactions#p2sh-multisig
+  /en/developer-examples#payment-processing: https://developer.btig.org/examples/payment_processing
+  /en/developer-examples#payment-protocol: https://developer.btig.org/examples/payment_processing#payment-protocol
+  /en/developer-examples#paymentrequest--paymentdetails: https://developer.btig.org/examples/payment_processing#paymentrequest-paymentdetails
+  /en/developer-examples#initialization-code: https://developer.btig.org/examples/payment_processing#initialization-code
+  /en/developer-examples#configuration-code: https://developer.btig.org/examples/payment_processing#configuration-code
+  /en/developer-examples#code-variables: https://developer.btig.org/examples/payment_processing#code-variables
+  /en/developer-examples#derivable-data: https://developer.btig.org/examples/payment_processing#derivable-data
+  /en/developer-examples#output-code: https://developer.btig.org/examples/payment_processing#output-code
+  /en/developer-examples#p2p-network: https://developer.btig.org/examples/p2p_networking
+  /en/developer-examples#creating-a-bloom-filter: https://developer.btig.org/examples/p2p_networking#creating-a-bloom-filter
+  /en/developer-examples#evaluating-a-bloom-filter: https://developer.btig.org/examples/p2p_networking#evaluating-a-bloom-filter
+  /en/developer-examples#retrieving-a-merkleblock: https://developer.btig.org/examples/p2p_networking#retrieving-a-merkleblock
+  /en/developer-examples#parsing-a-merkleblock: https://developer.btig.org/examples/p2p_networking#parsing-a-merkleblock
+  /en/developer-glossary: https://developer.btig.org/glossary
+  /en/glossary/51-percent-attack: https://developer.btig.org/glossary
+  /en/glossary/address: https://developer.btig.org/glossary
+  /en/glossary/node: https://developer.btig.org/glossary
+  /en/glossary/cpfp: https://developer.btig.org/glossary
+  /en/glossary/multisig: https://developer.btig.org/glossary
+  /en/glossary/header-chain: https://developer.btig.org/glossary
+  /en/glossary/block-chain: https://developer.btig.org/glossary
+  /en/glossary/denominations: https://developer.btig.org/glossary
+  /en/glossary/block: https://developer.btig.org/glossary
+  /en/glossary/genesis-block: https://developer.btig.org/glossary
+  /en/glossary/block-header: https://developer.btig.org/glossary
+  /en/glossary/block-height: https://developer.btig.org/glossary
+  /en/glossary/blocks-first-sync: https://developer.btig.org/glossary
+  /en/glossary/bloom-filter: https://developer.btig.org/glossary
+  /en/glossary/chain-code: https://developer.btig.org/glossary
+  /en/glossary/change-address: https://developer.btig.org/glossary
+  /en/glossary/child-key: https://developer.btig.org/glossary
+  /en/glossary/coinbase: https://developer.btig.org/glossary
+  /en/glossary/coinbase-transaction: https://developer.btig.org/glossary
+  /en/glossary/compactsize: https://developer.btig.org/glossary
+  /en/glossary/compressed-public-key: https://developer.btig.org/glossary
+  /en/glossary/confirmation-score: https://developer.btig.org/glossary
+  /en/glossary/consensus: https://developer.btig.org/glossary
+  /en/glossary/consensus-rules: https://developer.btig.org/glossary
+  /en/glossary/null-data-transaction: https://developer.btig.org/glossary
+  /en/glossary/op-code: https://developer.btig.org/glossary
+  /en/glossary/difficulty: https://developer.btig.org/glossary
+  /en/glossary/dns-seed: https://developer.btig.org/glossary
+  /en/glossary/double-spend: https://developer.btig.org/glossary
+  /en/glossary/escrow-contract: https://developer.btig.org/glossary
+  /en/glossary/extended-key: https://developer.btig.org/glossary
+  /en/glossary/fork: https://developer.btig.org/glossary
+  /en/glossary/high-priority-transaction: https://developer.btig.org/glossary
+  /en/glossary/hard-fork: https://developer.btig.org/glossary
+  /en/glossary/hardened-extended-key: https://developer.btig.org/glossary
+  /en/glossary/hd-protocol: https://developer.btig.org/glossary
+  /en/glossary/hd-wallet-seed: https://developer.btig.org/glossary
+  /en/glossary/headers-first-sync: https://developer.btig.org/glossary
+  /en/glossary/initial-block-download: https://developer.btig.org/glossary
+  /en/glossary/input: https://developer.btig.org/glossary
+  /en/glossary/internal-byte-order: https://developer.btig.org/glossary
+  /en/glossary/inventory: https://developer.btig.org/glossary
+  /en/glossary/simplified-payment-verification: https://developer.btig.org/glossary
+  /en/glossary/locktime: https://developer.btig.org/glossary
+  /en/glossary/mainnet: https://developer.btig.org/glossary
+  /en/glossary/masf: https://developer.btig.org/glossary
+  /en/glossary/master-chain-code-and-private-key: https://developer.btig.org/glossary
+  /en/glossary/block-size-limit: https://developer.btig.org/glossary
+  /en/glossary/merkle-block: https://developer.btig.org/glossary
+  /en/glossary/merkle-root: https://developer.btig.org/glossary
+  /en/glossary/merkle-tree: https://developer.btig.org/glossary
+  /en/glossary/message-header: https://developer.btig.org/glossary
+  /en/glossary/mining: https://developer.btig.org/glossary
+  /en/glossary/transaction-fee: https://developer.btig.org/glossary
+  /en/glossary/minimum-relay-fee: https://developer.btig.org/glossary
+  /en/glossary/nbits: https://developer.btig.org/glossary
+  /en/glossary/start-string: https://developer.btig.org/glossary
+  /en/glossary/rbf: https://developer.btig.org/glossary
+  /en/glossary/orphan-block: https://developer.btig.org/glossary
+  /en/glossary/outpoint: https://developer.btig.org/glossary
+  /en/glossary/output: https://developer.btig.org/glossary
+  /en/glossary/p2pkh-address: https://developer.btig.org/glossary
+  /en/glossary/p2sh-multisig: https://developer.btig.org/glossary
+  /en/glossary/p2sh-address: https://developer.btig.org/glossary
+  /en/glossary/parent-key: https://developer.btig.org/glossary
+  /en/glossary/payment-protocol: https://developer.btig.org/glossary
+  /en/glossary/proof-of-work: https://developer.btig.org/glossary
+  /en/glossary/private-key: https://developer.btig.org/glossary
+  /en/glossary/pubkey-script: https://developer.btig.org/glossary
+  /en/glossary/public-key: https://developer.btig.org/glossary
+  /en/glossary/serialized-transaction: https://developer.btig.org/glossary
+  /en/glossary/redeem-script: https://developer.btig.org/glossary
+  /en/glossary/regression-test-mode: https://developer.btig.org/glossary
+  /en/glossary/rpc-byte-order: https://developer.btig.org/glossary
+  /en/glossary/signature-script: https://developer.btig.org/glossary
+  /en/glossary/sequence-number: https://developer.btig.org/glossary
+  /en/glossary/serialized-block: https://developer.btig.org/glossary
+  /en/glossary/signature-hash: https://developer.btig.org/glossary
+  /en/glossary/sighash-all: https://developer.btig.org/glossary
+  /en/glossary/sighash-anyonecanpay: https://developer.btig.org/glossary
+  /en/glossary/sighash-none: https://developer.btig.org/glossary
+  /en/glossary/sighash-single: https://developer.btig.org/glossary
+  /en/glossary/signature: https://developer.btig.org/glossary
+  /en/glossary/soft-fork: https://developer.btig.org/glossary
+  /en/glossary/standard-transaction: https://developer.btig.org/glossary
+  /en/glossary/testnet: https://developer.btig.org/glossary
+  /en/glossary/token: https://developer.btig.org/glossary
+  /en/glossary/malleability: https://developer.btig.org/glossary
+  /en/glossary/txid: https://developer.btig.org/glossary
+  /en/glossary/uasf: https://developer.btig.org/glossary
+  /en/glossary/unspent-transaction-output: https://developer.btig.org/glossary
+  /en/glossary/wallet: https://developer.btig.org/glossary
+  /en/glossary/wallet-import-format: https://developer.btig.org/glossary
+  /en/glossary/watch-only-address: https://developer.btig.org/glossary
+  /news: /en/version-history
+  /clients: /en/choose-your-wallet
+  /about: /en/faq
+  /ar/بت-كوين-للهواة: /ar/innovation
+  /ar/عن: /ar/faq
+  /ar/بت-كوين-للمطورين: https://developer.btig.org/
+  /ar/بت-كوين-للأفراد: /ar/btig-for-individuals
+  /ar/إختر-محفظتك: /ar/choose-your-wallet
+  /ar/بت-كوين-للأعمال: /ar/btig-for-businesses
+  /ar/إختر-محفظتك: /ar/choose-your-wallet
+  /ar/مجتمع: /ar/community
+  /ar/تطوير: /ar/development
+  /ar/تحميل: /ar/download
+  /ar/كيف-يعمل: /ar/how-it-works
+  /ar/مصادر: /ar/resources
+  /ar/إدعم-ألبت-كوين: /ar/support-btig
+  /ar/مفردات: /ar/vocabulary
+  /ar/تحتاج-أن-تعلم: /ar/you-need-to-know
+  /fa/بیت-کوین-برای-علاقه-مندان: /fa/innovation
+  /fa/درباره: /fa/faq
+  /fa/بیت-کوین-برای-توسعه-دهندگان: https://developer.btig.org/
+  /fa/بیت-کوین-برای-افراد: /fa/btig-for-individuals
+  /fa/بیت-کوین-برای-کسب-و-کار: /fa/btig-for-businesses
+  /fa/انتخاب-کیف-پول: /fa/choose-your-wallet
+  /fa/انجمن: /fa/community
+  /fa/توسعه: /fa/development
+  /fa/دانلود: /fa/download
+  /fa/چگونه-کار-می-کند: /fa/how-it-works
+  /fa/منابع: /fa/resources
+  /fa/کیف-پولتان-را-ایمن-کنید: /fa/secure-your-wallet
+  /fa/حمایت-از-بیت-کوین: /fa/support-btig
+  /fa/واژگان: /fa/vocabulary
+  /fa/آن-چه-باید-بدانید: /fa/you-need-to-know
+  /ru/биткоин-разработчикам: https://developer.btig.org/
+  /ru/биткоин-частным-лицам: /ru/btig-for-individuals
+  /ru/биткоин-бизнесу: /ru/btig-for-businesses
+  /ru/выберите-свой-кошелек: /ru/choose-your-wallet
+  /ru/сообщество: /ru/community
+  /ru/разработка: /ru/development
+  /ru/загрузки: /ru/download
+  /ru/как-это-работает: /ru/how-it-works
+  /ru/ресурсы: /ru/resources
+  /ru/поддержать-биткоин: /ru/support-btig
+  /ru/термины: /ru/vocabulary
+  /ru/вам-нужно-знать: /ru/you-need-to-know
+  /ru/описание: /ru/faq
+  /ru/биткоин-энтузиастам: /ru/innovation
+  /tr/bilmelisiniz: /tr/bilmeniz-gerekenler
+  /tr/yeni-baslamak: /tr/baslarken
+  /en/btig-for-press: /en/press
+  /de/ueber: /de/faq
+  /de/developer-examples: https://developer.btig.org/examples/
+  /de/developer-glossary: https://developer.btig.org/glossary
+  /de/developer-guide: https://developer.btig.org/devguide/
+  /de/developer-reference: https://developer.btig.org/reference/
+  /de/developer-documentation: https://developer.btig.org/
+  /en/about: /en/faq
+  /es/acerca-de: /es/faq
+  /fr/a-propos: /fr/faq
+  /hu/btig-paper: /hu/papir-btig
+  /hu/developer-documentation: https://developer.btig.org/
+  /hu/developer-examples: https://developer.btig.org/examples/
+  /hu/developer-glossary: https://developer.btig.org/glossary
+  /hu/developer-guide: https://developer.btig.org/devguide/
+  /hu/developer-reference: https://developer.btig.org/reference/
+  /id/developer-documentation: https://developer.btig.org/
+  /id/btig-paper: /id/makalah-btig
+  /id/developer-examples: https://developer.btig.org/examples/
+  /id/developer-glossary: https://developer.btig.org/glossary
+  /id/developer-guide: https://developer.btig.org/devguide/
+  /id/developer-reference: https://developer.btig.org/reference/
+  /it/btig-paper: /it/documento-btig
+  /it/developer-documentation: https://developer.btig.org/
+  /it/developer-examples: https://developer.btig.org/examples/
+  /it/developer-glossary: https://developer.btig.org/glossary
+  /it/developer-guide: https://developer.btig.org/devguide/
+  /it/developer-reference: https://developer.btig.org/reference/
+  /it/a-proposito: /it/faq
+  /nl/developer-documentation: https://developer.btig.org/
+  /nl/developer-reference: https://developer.btig.org/reference/
+  /nl/developer-guide: https://developer.btig.org/devguide/
+  /nl/developer-glossary: https://developer.btig.org/glossary
+  /nl/developer-examples: https://developer.btig.org/examples/
+  /nl/btig-paper: /nl/btig-document
+  /nl/over-btig: /nl/faq
+  /pl/o: /pl/faq
+  /pt_BR/developer-documentation: https://developer.btig.org/
+  /pt_BR/developer-reference: https://developer.btig.org/reference/
+  /pt_BR/developer-guide: https://developer.btig.org/devguide/
+  /pt_BR/developer-glossary: https://developer.btig.org/glossary
+  /pt_BR/developer-examples: https://developer.btig.org/examples/
+  /tr/hakkinda: /tr/sss
+  /zh_CN/about: /zh_CN/faq
+  /zh_TW/about: /zh_TW/faq
+  /de/btig-fuer-enthusiasten: /de/innovation
+  /en/btig-for-enthusiasts: /en/innovation
+  /es/btig-para-entusiastas: /es/innovacion
+  /fr/btig-pour-passionnes: /fr/innovation
+  /it/btig-per-appassionati: /it/innovazione
+  /nl/btig-voor-liefhebbers: /nl/innovatie
+  /pl/btig-dla-entuzjastow: /pl/innowacje
+  /sr/btig-paper: /sr/bitkoin-papir
+  /sr/developer-documentation: https://developer.btig.org/
+  /sr/developer-examples: https://developer.btig.org/examples/
+  /sr/developer-glossary: https://developer.btig.org/glossary
+  /sr/developer-guide: https://developer.btig.org/devguide/
+  /sr/developer-reference: https://developer.btig.org/reference/
+  ## Old releases pages; stop adding to this list after 0.8.2
+  /releases/2011/04/27/v0.3.21: /en/release/v0.3.21
+  /releases/2011/06/05/v0.3.22: /en/release/v0.3.22
+  /releases/2011/06/14/v0.3.23: /en/release/v0.3.23
+  /releases/2011/07/08/v0.3.24: /en/release/v0.3.24
+  /releases/2011/09/23/v0.4.0: /en/release/v0.4.0
+  /releases/2011/11/21/v0.5.0: /en/release/v0.5.0
+  /releases/2011/12/15/v0.5.1: /en/release/v0.5.1
+  /releases/2012/01/09/v0.5.2: /en/release/v0.5.2
+  /releases/2012/03/14/v0.5.3: /en/release/v0.5.3
+  /releases/2012/03/16/v0.5.3.1: /en/release/v0.5.3.1
+  /releases/2012/03/30/v0.6.0: /en/release/v0.6.0
+  /releases/2012/05/04/v0.6.1: /en/release/v0.6.1
+  /releases/2012/05/08/v0.6.2: /en/release/v0.6.2
+  /releases/2012/06/25/v0.6.3: /en/release/v0.6.3
+  /releases/2012/09/17/v0.7.0: /en/release/v0.7.0
+  /releases/2012/10/19/v0.7.1: /en/release/v0.7.1
+  /releases/2012/12/14/v0.7.2: /en/release/v0.7.2
+  /releases/2013/02/19/v0.8.0: /en/release/v0.8.0
+  /releases/2013/03/18/v0.8.1: /en/release/v0.8.1
+  /releases/2013/05/29/v0.8.2: /en/release/v0.8.2
+  /btig_es_latam.pdf: /files/btig-paper/btig_es_latam.pdf
+  /btig_ru.pdf: /files/btig-paper/btig_ru.pdf
+
+aliases:
+  --author=Satoshi Nakamoto: Satoshi Nakamoto
+  gmaxwell: Gregory Maxwell
+  wbnns: Will Binns
+  laanwj: Wladimir J. van der Laan
+  luke-jr: Luke-Jr
+  petertodd: Peter Todd
+  s_nakamoto: Satoshi Nakamoto
+  schildbach: Andreas Schildbach
+  sipa: Pieter Wuille
+  tcatm: Nils Schneider
+  whitj00: Whit Jack
+  CodeShark: Eric Lombrozo
+  saracen: Satoshi Nakamoto
+  theuni: Cory Fields
+
+safe:        false
+port: 4000
+## Used in older version of Jekyll
+base-url:    /
+## Used in newer versions of Jekyll
+baseurl:    /
+
+source:      .
+destination: ./_site
+plugins_dir: ./_plugins
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - Makefile
+    - vendor  # Travis CI creates a vendor/ dir with files we shouldn't render
+
+future:      true
+lsi:         false
+markdown:    kramdown
+permalink:   date
+excerpt_separator: "<!-- END_EXCERPT -->"
+
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 2..6
+  enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    ## With the 'text' option, no highlighting is applied by default. We
+    ## need this for backwards compatibility with existing code blocks.
+    default_lang: text
+
+    ## Might be useful in the future, but turn off for upgrade to Jekyll 3.0
+    css_class:
+
+text:
+  ## Values last updated 2018-10-16
+  ## All variable names must indicate unit type for easy translation of adjacent text,
+  ##   such as: subsidy_in_decimal_btigs or
+  ##   btig_org_docs_maintainer_email_link
+  ## For increasing variables, like chain size, choose a somewhat higher
+  ##   value so we don't need to update too often
+  subsidy_in_decimal_btigs: 6.25
+  ## cd ~ ; du -sh .btig/ --exclude=testnet3 --exclude=regtest
+  btig_datadir_gb: 350
+  ## Slightly smaller than the total datadir size
+  chain_gb: 340
+  ## The main difference between the datadir size and the chain size, if
+  ## you don't have any extra indices
+  btig_datadir_gb_pruned: 7
+  ## the tx= field in: grep UpdateTip .btig/debug.log | tail -n1
+  total_tx_count_in_millions: 230
+  typical_ibd_time_in_hours: 4
+  typical_144_block_catchup_time_in_minutes: 5
+  btig_org_docs_maintainer_email_link: '<a href="mailto:will@btig.org">Will Binns</a>'
+  ## Before updating this, verify all assertions are still correct: git grep site.text.assertion_month
+  ## Use ISO-8601 format, but feel free to round to the nearest month
+  assertion_month: 2017-06-01
+
+collections:
+  ## _alerts
+  alerts:
+    output: true
+    permalink: /en/alert/:path
+  ## _releases
+  releases:
+    output: true
+    permalink: /en/release/:path
+  ## _wallets
+  wallets:
+    output: false
+  ## _platforms
+  platforms:
+    output: false
+  ## _devdocs
+  devdocs:
+    output: false
+
+donation_banner:
+  address: bc1qx3u4njquj0ux63030r4nat8awqrlm0x2zlt96h
+  display: true
+  amounts_in_usd:
+    - 5
+    - 25
+    - 50
+
+defaults:
+  - scope:
+      path: ""
+      type: alerts
+    values:
+      layout: alert
+      lang: en
+  - scope:
+      path: ""
+      type: releases
+    values:
+      layout: release
+      lang: en
+      breadcrumbs:
+        - btig
+        - bcc
+        - bcc news
+        - RELEASE
+  - scope:
+      path: ""
+      type: posts
+    values:
+      lang: en
+
+## Options as of version 3.4.20 are: nested (default), compact, compressed, or expanded
+sass:
+  style: compressed
